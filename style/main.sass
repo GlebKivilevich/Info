@@ -1,0 +1,1369 @@
+// Обнуление
+html    
+    box-sizing: border-box
+   
+*,
+*::before,
+*::after 
+    box-sizing: inherit
+   
+body
+    font-family: 'Open Sans', sans-serif
+    font-family: 'Roboto', sans-serif
+    color: #FFF
+    font-size: 16px
+    margin: 0
+    padding: 0
+    
+    height: 100%
+
+h1, h2, h3, h4, h5, h6 
+    margin: 0
+    padding: 0  
+    
+p 
+    margin: 0
+    padding: 0
+      
+ul, ol 
+    margin: 0
+    padding: 0
+    list-style: none
+      
+a 
+    color: inherit
+    text-decoration: none
+    
+img 
+    max-width: 100%
+    height: auto
+    
+figure 
+    margin: 0
+// Обнуление
+
+.conteiner
+    display: flex
+    flex-direction: column
+    height: 100vh
+
+    header 
+        background: #394959
+
+        .header__block       
+            display: flex
+            justify-content: space-between
+            align-items: center
+            height: 55px
+            max-width: 175px
+            margin: auto
+        
+        .text__header h2
+            font-family: 'Open Sans', sans-serif
+            font-weight: 100
+            font-size: 24px
+            
+        
+    main 
+        background: #e9ecf7
+        height: auto
+        flex: 1 0 auto
+
+        .block__info
+            max-width: 1400px 
+            margin: auto
+            color: #000
+            
+
+            h1
+                text-align: center
+                font-family: 'Open Sans', sans-serif
+                font-weight: 100
+                margin-top: 30px
+
+            p
+                text-align: center
+                font-family: 'Open Sans', sans-serif
+                font-weight: 100
+                margin-top: 10px
+        
+        .information
+            margin: auto
+            margin-top: 50px
+            margin-bottom: 50px
+            display: flex
+            justify-content: space-evenly
+            flex-direction: column
+            max-width: 1400px
+        
+            .container__for__first__block
+                max-width: 1400px
+
+                .first__block__info
+                    max-width: 1350px
+                    display: flex
+                    flex-wrap: wrap
+                    max-height: 500px
+                    align-items: self-start
+                    margin: auto
+                    margin-top: 10px
+                    margin-bottom: 25px
+
+                    .info__about__persons__age__50__years__and__older
+                        background: #fff
+                        max-width: 405px
+                        width: 405px
+                        height: 125px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-around
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+
+                        .upper__block__persons__age__50__years__and__older
+                            max-width: 405px
+                            margin: 0 auto
+                            text-align: center
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__persons__age__50__years__and__older
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+
+                            /* arrow */ 
+                            .right__arrow1 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+                            .right__arrow1::before,
+                            .right__arrow1::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+                            .right__arrow1::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow1::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow1::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow1:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow1:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+
+
+                    .info__about__citizens__of__pre__retirement__age 
+                        background: #fff
+                        max-width: 405px
+                        width: 405px
+                        height: 125px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-around    
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+
+                        .upper__block__citizens__of__pre__retirement__age
+                            max-width: 405px
+                            margin: 0 auto
+                            text-align: center
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__citizens__of__pre__retirement__age
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow2 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+
+                            .right__arrow2::before,
+                            .right__arrow2::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+
+                            .right__arrow2::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow2::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow2::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow2:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow2:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+
+                    .info__about__women__on__parental__leave__under__the__age__of__three
+                        background: #fff
+                        max-width: 405px
+                        min-width: 350px
+                        height: 125px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+
+                        .upper__block__women__on__parental__leave__under__the__age__of__three
+                            max-width: 405px
+                            margin: 0 auto
+                            text-align: center
+                            padding-top: 5px
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__women__on__parental__leave__under__the__age__of__three
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow3 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+
+                            .right__arrow3::before,
+                            .right__arrow3::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+
+                            .right__arrow3::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow3::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow3::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow3:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow3:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+                
+            .container__for__second__block
+                max-width: 1400px
+                margin-top: 35px
+
+                .second__block__info
+                    max-width: 1350px
+                    margin: auto
+                    display: flex
+                    flex-wrap: wrap
+                    align-items: flex-start
+                    margin-bottom: 25px
+
+                    .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship
+                        background: #fff
+                        max-width: 405px
+                        height: 160px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly   
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+
+
+                        .upper__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship
+                            max-width: 405px
+                            margin: 0 auto
+                            text-align: center
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow4 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+
+                            .right__arrow4::before,
+                            .right__arrow4::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+
+                            .right__arrow4::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow4::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow4::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow4:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow4:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+
+                    .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months
+                        background: #fff
+                        max-width: 405px
+                        height: 160px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly   
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+                        
+                        .upper__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months
+                            max-width: 405px
+                            margin: 0 auto
+                            text-align: center
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow5
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+
+                            .right__arrow5::before,
+                            .right__arrow5::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+
+                            .right__arrow5::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow5::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow5::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow5:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow5:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+
+
+                    .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education
+                        background: #fff
+                        max-width: 405px
+                        height: 160px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+
+                        .upper__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education
+                            max-width: 405px
+                            margin: 0 auto
+                            text-align: center
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow6 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+                            .right__arrow6::before,
+                            .right__arrow6::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+                            .right__arrow6::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow6::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow6::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow6:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow6:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+
+            .container__for__three__block
+                max-width: 1400px
+                
+                .three__block__info
+                    max-width: 1350px
+                    margin: auto
+                    display: flex
+                    flex-wrap: wrap
+                    align-items: flex-start
+                    margin-bottom: 25px
+                    margin-top: 35px
+
+                    .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue
+                        background: #fff
+                        max-width: 405px
+                        height: 180px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly
+                        border-radius: 5px
+                        transition: 0.4s ease-in
+
+                        .upper__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue
+                            max-width: 405px
+                            margin: 0 auto
+                            text-align: center
+                            padding-top: 5px
+                            padding-left: 5px
+                            padding-right: 5px
+
+                            p
+                                font-size: 18px
+                        .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow7 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+                            .right__arrow7::before,
+                            .right__arrow7::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+                            .right__arrow7::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow7::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow7::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow7:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow7:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+                
+
+                    .info__about__citizens__at__risk__of__dismissal
+                        background: #fff
+                        max-width: 405px
+                        height: 225px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+
+                        .upper__block__info__about__citizens__at__risk__of__dismissal
+                            max-width: 405px
+                            margin: 0 auto
+                            text-align: center
+                            padding-top: 5px
+                            padding-left: 5px
+                            padding-right: 5px
+
+                            p
+                                font-size: 18px
+                        .lower__block__info__about__citizens__at__risk__of__dismissal
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow8 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+                            .right__arrow8::before,
+                            .right__arrow8::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+                            .right__arrow8::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow8::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow8::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow8:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow8:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+
+                    .info__about__unemployed__citizens__registered__with__the__employment__service
+                        background: #fff
+                        max-width: 405px
+                        height: 125px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+                        // margin-right: 70px
+
+                        .upper__block__info__about__unemployed__citizens__registered__with__the__employment__service
+                            max-width: 400px
+                            margin: 0 auto
+                            text-align: center
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__info__about__unemployed__citizens__registered__with__the__employment__service
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                        /* arrow */ 
+                        .right__arrow11
+                            display: inline-flex
+                            position: relative
+                            width: 22px
+                            height: 15px
+                            cursor: pointer
+                        
+                        .right__arrow11::before,
+                        .right__arrow11::after 
+                            display: inline-flex
+                            position: absolute
+                            content: ''
+                        
+                        .right__arrow11::before 
+                            top: 7px
+                            left: 1px
+                            width: 20px
+                            height: 2px
+                            background-color: #2B8CFC 
+                        
+
+                        .right__arrow11::after 
+                            width: 10px
+                            height: 10px
+                            top: 3px
+                        
+
+                        .right__arrow11::after 
+                            right: 0
+                            border-top: 2px solid #2B8CFC
+                            border-right: 2px solid #2B8CFC
+                            transform: rotate(45deg)
+                        
+
+                        .right__arrow11:hover:before
+                            background-color: #BD8355
+                        
+                        .right__arrow11:hover::after 
+                            border-top: 2px solid #BD8355
+                            border-right: 2px solid #BD8355
+                                        
+            .container__for__four__block
+                max-width: 1400px
+
+                .four__block__info
+                    max-width: 1350px
+                    margin: auto
+                    display: flex
+                    flex-wrap: wrap
+                    align-items: flex-start
+                    margin-bottom: 25px
+                    margin-top: 35px
+
+                    .info__about__employees__at__risk__of__dismissal
+                        background: #fff
+                        max-width: 405px
+                        height: 235px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly
+                        border-radius: 5px
+                        
+                        .upper__block__info__about__employees__at__risk__of__dismissal
+                            max-width: 400px
+                            margin: 0 auto
+                            text-align: center
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__info__about__employees__at__risk__of__dismissal
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow10 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+                            .right__arrow10::before,
+                            .right__arrow10::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+                            .right__arrow10::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow10::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow10::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow10:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow10:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+
+                    .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year
+                        background: #fff
+                        max-width: 405px
+                        height: 335px
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-evenly
+                        border-radius: 5px
+                        transition: ease-in 0.3s 
+                        margin-left: 70px
+                        
+                        .upper__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year
+                            max-width: 400px
+                            margin: 0 auto
+                            text-align: center
+                            padding-left: 5px
+                            padding-right: 5px
+
+                            p
+                                font-size: 18px
+
+                        .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year
+                            display: flex
+                            justify-content: flex-end
+                            max-width: 350px
+
+                            /* arrow */ 
+                            .right__arrow9 
+                                display: inline-flex
+                                position: relative
+                                width: 22px
+                                height: 15px
+                                cursor: pointer
+                            
+                            .right__arrow9::before,
+                            .right__arrow9::after 
+                                display: inline-flex
+                                position: absolute
+                                content: ''
+                            
+                            .right__arrow9::before 
+                                top: 7px
+                                left: 1px
+                                width: 20px
+                                height: 2px
+                                background-color: #2B8CFC 
+                            
+
+                            .right__arrow9::after 
+                                width: 10px
+                                height: 10px
+                                top: 3px
+                            
+
+                            .right__arrow9::after 
+                                right: 0
+                                border-top: 2px solid #2B8CFC
+                                border-right: 2px solid #2B8CFC
+                                transform: rotate(45deg)
+                            
+
+                            .right__arrow9:hover:before
+                                background-color: #BD8355
+                            
+                            .right__arrow9:hover::after 
+                                border-top: 2px solid #BD8355
+                                border-right: 2px solid #BD8355
+
+
+                    
+    footer
+        background: #394959
+        min-height: 180px
+        flex: 0 0 auto
+
+        .container__footer
+            max-width: 1200px
+            margin: auto
+            display: flex
+            align-items: center
+            height: 100%
+
+            .contact__block
+                max-width: 350px
+                height: 150px
+                display: flex
+                flex-direction: column
+                justify-content: flex-end
+                
+                .block__address
+                    display: flex
+                    margin-bottom: 12px 
+                    
+                    img     
+                        width: 22px
+                        height: 22px
+                        margin-right: 5px 
+
+            .block__phone
+                margin-bottom: 12px 
+
+                img
+                    width: 22px
+                    height: 22px
+                    margin-right: 5px 
+            
+            .block__email
+                margin-bottom: 12px 
+
+                img 
+                    width: 22px
+                    height: 22px
+                    margin-right: 5px 
+
+            .block__inst
+                display: flex
+                align-items: center
+                margin-bottom: 15px 
+                
+                img
+                    width: 20px
+                    height: 20px
+                    margin-right: 5px   
+
+            .block__facebook
+                display: flex
+                align-items: center
+                
+                img
+                    width: 20px
+                    height: 20px
+                    margin-right: 5px   
+
+    .modal__window
+        position: absolute
+        background: rgba(0, 0, 0, 0.8)
+        width: 100%
+        height: 1000vh
+
+        .content__modal
+            position: fixed
+            background: #FFF
+            color: #000
+            max-width: 500px
+            min-width: 375px
+            max-height: 550px
+            left: 50%
+            transform: translate(-50%, 25%)
+            border-radius: 10px
+            padding-bottom: 25px
+
+            h2
+                font-size: 20px
+                text-align: center
+                padding-top: 45px
+
+            .modal__close
+                position: absolute                
+                font-size: 28px
+                cursor: pointer
+                top: 5px
+                right: 20px
+
+            .info__about__document__passport
+                max-width: 85px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                margin-top: 35px
+                margin-left: 25px
+
+            
+            .info__about__document__education__document
+                max-width: 221px
+                display: flex
+                justify-content: space-between
+                align-items: center
+                margin-top: 10px
+                margin-left: 25px
+
+
+.information__three__big
+    max-width: 324px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.information__three__small
+    max-width: 294px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.information__four__normal
+    max-width: 270px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px 
+
+.information__five__normal__big
+    max-width: 347px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px 
+
+.information__five__big
+    max-width: 455px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px 
+
+.information__five__normal
+    max-width: 322px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px 
+
+.info__six__normal
+    max-width: 303px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px 
+
+.info__six__big
+    max-width: 432px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__seven__normal
+    max-width: 393px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px 
+
+.info__seven__big
+    max-width: 380px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__eight__normal
+    max-width: 393px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__eight__big
+    max-width: 463px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__more__detailed
+    max-width: 120px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin: auto
+    margin-top: 12px
+    color: #0066ff
+
+.info__nine__small
+    max-width: 222px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__nine__normal
+    max-width: 324px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__nine__big
+    max-width: 393px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__ten__small
+    max-width: 222px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__ten__big
+    max-width: 463px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__eleven__small
+    max-width: 222px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+.info__eleven__normal
+    max-width: 383px
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 10px
+    margin-left: 25px
+
+._noactive
+    display: none
+._active
+    display: block
+.dot
+    width: 15px
+    height: 15px
+    border-radius: 50%
+    background: #0076FF
+    margin-top: 4px
+
+.info__about__citizens__under__35__graduating__from__an__educational__institution__this__year:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__citizens__at__risk__of__dismissal:hover 
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__persons__age__50__years__and__older:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__citizens__of__pre__retirement__age:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__women__on__parental__leave__under__the__age__of__three:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__unemployed__citizens__registered__with__the__employment__service:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+.info__about__employees__at__risk__of__dismissal:hover
+    box-shadow: 0 4px 2px -2px #2b8cfc
+    transition: ease-in 0.3s 
+
+
+.flex-jc-sb
+    justify-content: space-between
+
+.flex-jc-end
+    justify-content: end
+
+.text__h1__block__info
+    font-size: 30px
+.text__p__block__info
+    font-size: 20px
+// Adaptiv
+@media (max-width: 1239px)
+    .second__block__info
+        justify-content: center
+
+    .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months
+        margin-left: 25px
+        margin-bottom: 25px
+
+    .three__block__info
+        justify-content: center
+
+    .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue
+        min-height: 225px
+    .info__about__citizens__at__risk__of__dismissal
+        margin-left: 25px
+        margin-bottom: 25px
+
+    .first__block__info 
+        justify-content: center        
+
+    .info__about__citizens__of__pre__retirement__age
+        margin-left: 25px
+        margin-bottom: 25px    
+
+    .four__block__info
+        justify-content: center
+
+    .container__footer
+        justify-content: space-around
+@media (max-width: 1104px)
+    .first__block__info
+        justify-content: center
+
+    .info__about__citizens__of__pre__retirement__age
+        margin-left: 25px
+        margin-bottom: 25px
+
+    .four__block__info
+        justify-content: center
+        
+@media (max-width: 880px)
+    .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year
+        margin-right: 70px
+        margin-top: 25px
+
+@media (max-width: 855px)
+    .first__block__info,
+    .second__block__info,
+    .three__block__info
+        display: flex
+        justify-content: center
+        
+        .info__about__citizens__of__pre__retirement__age
+            margin-top: 25px
+            margin-right: 25px
+
+        .lower__block__women__on__parental__leave__under__the__age__of__three
+            width: 325px
+    
+    .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months,
+    .info__about__citizens__at__risk__of__dismissal
+        margin-top: 25px
+        margin-bottom: 25px
+
+    .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months,
+    .info__about__citizens__at__risk__of__dismissal
+        margin-right: 25px      
+
+    .container__footer
+        flex-direction: column
+        margin-top: 25px
+        min-height: 85%
+
+    .four__block__info
+        justify-content: center
+
+    .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year
+        margin-right: 70px
+        margin-top: 25px
+
+@media (max-width: 500px)
+    .first__block__info
+        width: 365px
+    .block__info        
+        h2
+            font-size: 14px
+
+        .text__p__block__info
+            font-size: 16px
+
+    .info__about__citizens__of__pre__retirement__age,
+    .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months,
+    .info__about__citizens__at__risk__of__dismissal
+        margin-top: 25px
+        margin-right: 25px
+
+    .lower__block__info__about__citizens__at__risk__of__dismissal
+        width: 340px
+
+    .info__about__citizens__of__pre__retirement__age,
+    .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months
+        min-width: 365px
+
+    .info__about__women__on__parental__leave__under__the__age__of__three,
+    .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship,
+    .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education,
+    .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue,
+    .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education,
+    .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue,
+    .info__about__citizens__at__risk__of__dismissal,
+    .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year,
+    .info__about__employees__at__risk__of__dismissal,
+    .info__about__unemployed__citizens__registered__with__the__employment__service
+        width: 365px
+
+    .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue,
+    .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year,
+    .lower__block__info__about__employees__at__risk__of__dismissal,
+    .lower__block__info__about__unemployed__citizens__registered__with__the__employment__service
+        width: 340px
+        
+    .lower__block__citizens__of__pre__retirement__age,
+    .lower__block__persons__age__50__years__and__older,
+    .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship
+        width: 340px
+
+    .lower__block__women__on__parental__leave__under__the__age__of__three
+        min-width: 340px
+
+    .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months,
+    .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education
+        width: 340px
+
+    .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year
+        min-width: 365px
+        min-height: 365px 
+
+    .logo__block img
+        width: 85%
+
+    .info__about__persons__age__50__years__and__older
+        width: 365px

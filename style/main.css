@@ -1,0 +1,1834 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+.conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+.conteiner header {
+  background: #394959;
+}
+.conteiner header .header__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 55px;
+  max-width: 175px;
+  margin: auto;
+}
+.conteiner header .text__header h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+.conteiner main {
+  background: #e9ecf7;
+  height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+.conteiner main .block__info {
+  max-width: 1400px;
+  margin: auto;
+  color: #000;
+}
+.conteiner main .block__info h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin-top: 30px;
+}
+.conteiner main .block__info p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.conteiner main .information {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1400px;
+}
+.conteiner main .information .container__for__first__block {
+  max-width: 1400px;
+}
+.conteiner main .information .container__for__first__block .first__block__info {
+  max-width: 1350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-height: 500px;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older {
+  background: #fff;
+  max-width: 405px;
+  width: 405px;
+  height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .upper__block__persons__age__50__years__and__older {
+  max-width: 405px;
+  margin: 0 auto;
+  text-align: center;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .upper__block__persons__age__50__years__and__older p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older .right__arrow1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older .right__arrow1::before,
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older .right__arrow1::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older .right__arrow1::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older .right__arrow1::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older .right__arrow1::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older .right__arrow1:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__persons__age__50__years__and__older .lower__block__persons__age__50__years__and__older .right__arrow1:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age {
+  background: #fff;
+  max-width: 405px;
+  width: 405px;
+  height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .upper__block__citizens__of__pre__retirement__age {
+  max-width: 405px;
+  margin: 0 auto;
+  text-align: center;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .upper__block__citizens__of__pre__retirement__age p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age .right__arrow2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age .right__arrow2::before,
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age .right__arrow2::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age .right__arrow2::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age .right__arrow2::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age .right__arrow2::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age .right__arrow2:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__citizens__of__pre__retirement__age .lower__block__citizens__of__pre__retirement__age .right__arrow2:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three {
+  background: #fff;
+  max-width: 405px;
+  min-width: 350px;
+  height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .upper__block__women__on__parental__leave__under__the__age__of__three {
+  max-width: 405px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .upper__block__women__on__parental__leave__under__the__age__of__three p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three .right__arrow3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three .right__arrow3::before,
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three .right__arrow3::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three .right__arrow3::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three .right__arrow3::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three .right__arrow3::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three .right__arrow3:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__first__block .first__block__info .info__about__women__on__parental__leave__under__the__age__of__three .lower__block__women__on__parental__leave__under__the__age__of__three .right__arrow3:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__second__block {
+  max-width: 1400px;
+  margin-top: 35px;
+}
+.conteiner main .information .container__for__second__block .second__block__info {
+  max-width: 1350px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 25px;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship {
+  background: #fff;
+  max-width: 405px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .upper__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship {
+  max-width: 405px;
+  margin: 0 auto;
+  text-align: center;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .upper__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .right__arrow4 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .right__arrow4::before,
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .right__arrow4::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .right__arrow4::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .right__arrow4::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .right__arrow4::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .right__arrow4:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship .right__arrow4:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months {
+  background: #fff;
+  max-width: 405px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .upper__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months {
+  max-width: 405px;
+  margin: 0 auto;
+  text-align: center;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .upper__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .right__arrow5 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .right__arrow5::before,
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .right__arrow5::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .right__arrow5::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .right__arrow5::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .right__arrow5::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .right__arrow5:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months .right__arrow5:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education {
+  background: #fff;
+  max-width: 405px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .upper__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education {
+  max-width: 405px;
+  margin: 0 auto;
+  text-align: center;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .upper__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .right__arrow6 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .right__arrow6::before,
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .right__arrow6::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .right__arrow6::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .right__arrow6::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .right__arrow6::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .right__arrow6:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__second__block .second__block__info .info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education .right__arrow6:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__three__block {
+  max-width: 1400px;
+}
+.conteiner main .information .container__for__three__block .three__block__info {
+  max-width: 1350px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 25px;
+  margin-top: 35px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue {
+  background: #fff;
+  max-width: 405px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .upper__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue {
+  max-width: 405px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .upper__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .right__arrow7 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .right__arrow7::before,
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .right__arrow7::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .right__arrow7::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .right__arrow7::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .right__arrow7::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .right__arrow7:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__three__block .three__block__info .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue .right__arrow7:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal {
+  background: #fff;
+  max-width: 405px;
+  height: 225px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .upper__block__info__about__citizens__at__risk__of__dismissal {
+  max-width: 405px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .upper__block__info__about__citizens__at__risk__of__dismissal p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal .right__arrow8 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal .right__arrow8::before,
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal .right__arrow8::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal .right__arrow8::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal .right__arrow8::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal .right__arrow8::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal .right__arrow8:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__citizens__at__risk__of__dismissal .lower__block__info__about__citizens__at__risk__of__dismissal .right__arrow8:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service {
+  background: #fff;
+  max-width: 405px;
+  height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .upper__block__info__about__unemployed__citizens__registered__with__the__employment__service {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .upper__block__info__about__unemployed__citizens__registered__with__the__employment__service p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .lower__block__info__about__unemployed__citizens__registered__with__the__employment__service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .right__arrow11 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .right__arrow11::before,
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .right__arrow11::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .right__arrow11::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .right__arrow11::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .right__arrow11::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .right__arrow11:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__three__block .three__block__info .info__about__unemployed__citizens__registered__with__the__employment__service .right__arrow11:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__four__block {
+  max-width: 1400px;
+}
+.conteiner main .information .container__for__four__block .four__block__info {
+  max-width: 1350px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 25px;
+  margin-top: 35px;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal {
+  background: #fff;
+  max-width: 405px;
+  height: 235px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .upper__block__info__about__employees__at__risk__of__dismissal {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .upper__block__info__about__employees__at__risk__of__dismissal p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal .right__arrow10 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal .right__arrow10::before,
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal .right__arrow10::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal .right__arrow10::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal .right__arrow10::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal .right__arrow10::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal .right__arrow10:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__employees__at__risk__of__dismissal .lower__block__info__about__employees__at__risk__of__dismissal .right__arrow10:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year {
+  background: #fff;
+  max-width: 405px;
+  height: 335px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+  margin-left: 70px;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .upper__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .upper__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year p {
+  font-size: 18px;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 350px;
+  /* arrow */ 
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .right__arrow9 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .right__arrow9::before,
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .right__arrow9::after {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .right__arrow9::before {
+  top: 7px;
+  left: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #2B8CFC;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .right__arrow9::after {
+  width: 10px;
+  height: 10px;
+  top: 3px;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .right__arrow9::after {
+  right: 0;
+  border-top: 2px solid #2B8CFC;
+  border-right: 2px solid #2B8CFC;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .right__arrow9:hover:before {
+  background-color: #BD8355;
+}
+.conteiner main .information .container__for__four__block .four__block__info .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year .right__arrow9:hover::after {
+  border-top: 2px solid #BD8355;
+  border-right: 2px solid #BD8355;
+}
+.conteiner footer {
+  background: #394959;
+  min-height: 180px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.conteiner footer .container__footer {
+  max-width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+.conteiner footer .container__footer .contact__block {
+  max-width: 350px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.conteiner footer .container__footer .contact__block .block__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 12px;
+}
+.conteiner footer .container__footer .contact__block .block__address img {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+.conteiner footer .container__footer .block__phone {
+  margin-bottom: 12px;
+}
+.conteiner footer .container__footer .block__phone img {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+.conteiner footer .container__footer .block__email {
+  margin-bottom: 12px;
+}
+.conteiner footer .container__footer .block__email img {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+.conteiner footer .container__footer .block__inst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.conteiner footer .container__footer .block__inst img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.conteiner footer .container__footer .block__facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner footer .container__footer .block__facebook img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.conteiner .modal__window {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 1000vh;
+}
+.conteiner .modal__window .content__modal {
+  position: fixed;
+  background: #FFF;
+  color: #000;
+  max-width: 500px;
+  min-width: 375px;
+  max-height: 550px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 25%);
+          transform: translate(-50%, 25%);
+  border-radius: 10px;
+  padding-bottom: 25px;
+}
+.conteiner .modal__window .content__modal h2 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 45px;
+}
+.conteiner .modal__window .content__modal .modal__close {
+  position: absolute;
+  font-size: 28px;
+  cursor: pointer;
+  top: 5px;
+  right: 20px;
+}
+.conteiner .modal__window .content__modal .info__about__document__passport {
+  max-width: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+  margin-left: 25px;
+}
+.conteiner .modal__window .content__modal .info__about__document__education__document {
+  max-width: 221px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.information__three__big {
+  max-width: 324px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.information__three__small {
+  max-width: 294px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.information__four__normal {
+  max-width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.information__five__normal__big {
+  max-width: 347px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.information__five__big {
+  max-width: 455px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.information__five__normal {
+  max-width: 322px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__six__normal {
+  max-width: 303px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__six__big {
+  max-width: 432px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__seven__normal {
+  max-width: 393px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__seven__big {
+  max-width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__eight__normal {
+  max-width: 393px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__eight__big {
+  max-width: 463px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__more__detailed {
+  max-width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: auto;
+  margin-top: 12px;
+  color: #0066ff;
+}
+
+.info__nine__small {
+  max-width: 222px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__nine__normal {
+  max-width: 324px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__nine__big {
+  max-width: 393px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__ten__small {
+  max-width: 222px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__ten__big {
+  max-width: 463px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__eleven__small {
+  max-width: 222px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.info__eleven__normal {
+  max-width: 383px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+._noactive {
+  display: none;
+}
+
+._active {
+  display: block;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #0076FF;
+  margin-top: 4px;
+}
+
+.info__about__citizens__under__35__graduating__from__an__educational__institution__this__year:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__citizens__at__risk__of__dismissal:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__persons__age__50__years__and__older:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__citizens__of__pre__retirement__age:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__women__on__parental__leave__under__the__age__of__three:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__unemployed__citizens__registered__with__the__employment__service:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.info__about__employees__at__risk__of__dismissal:hover {
+  -webkit-box-shadow: 0 4px 2px -2px #2b8cfc;
+          box-shadow: 0 4px 2px -2px #2b8cfc;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.text__h1__block__info {
+  font-size: 30px;
+}
+
+.text__p__block__info {
+  font-size: 20px;
+}
+
+@media (max-width: 1239px) {
+  .second__block__info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  .three__block__info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue {
+    min-height: 225px;
+  }
+
+  .info__about__citizens__at__risk__of__dismissal {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  .first__block__info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .info__about__citizens__of__pre__retirement__age {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  .four__block__info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .container__footer {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media (max-width: 1104px) {
+  .first__block__info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .info__about__citizens__of__pre__retirement__age {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  .four__block__info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 880px) {
+  .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year {
+    margin-right: 70px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 855px) {
+  .first__block__info,
+.second__block__info,
+.three__block__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .first__block__info .info__about__citizens__of__pre__retirement__age,
+.second__block__info .info__about__citizens__of__pre__retirement__age,
+.three__block__info .info__about__citizens__of__pre__retirement__age {
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+  .first__block__info .lower__block__women__on__parental__leave__under__the__age__of__three,
+.second__block__info .lower__block__women__on__parental__leave__under__the__age__of__three,
+.three__block__info .lower__block__women__on__parental__leave__under__the__age__of__three {
+    width: 325px;
+  }
+
+  .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months,
+.info__about__citizens__at__risk__of__dismissal {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months,
+.info__about__citizens__at__risk__of__dismissal {
+    margin-right: 25px;
+  }
+
+  .container__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 25px;
+    min-height: 85%;
+  }
+
+  .four__block__info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year {
+    margin-right: 70px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .first__block__info {
+    width: 365px;
+  }
+
+  .block__info h2 {
+    font-size: 14px;
+  }
+  .block__info .text__p__block__info {
+    font-size: 16px;
+  }
+
+  .info__about__citizens__of__pre__retirement__age,
+.info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months,
+.info__about__citizens__at__risk__of__dismissal {
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+
+  .lower__block__info__about__citizens__at__risk__of__dismissal {
+    width: 340px;
+  }
+
+  .info__about__citizens__of__pre__retirement__age,
+.info__about__citizens__under__the__age__of__35__who__are__not__employed__after__4__months {
+    min-width: 365px;
+  }
+
+  .info__about__women__on__parental__leave__under__the__age__of__three,
+.info__about__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship,
+.info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education,
+.citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue,
+.info__about__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education,
+.citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue,
+.info__about__citizens__at__risk__of__dismissal,
+.info__about__citizens__under__35__graduating__from__an__educational__institution__this__year,
+.info__about__employees__at__risk__of__dismissal,
+.info__about__unemployed__citizens__registered__with__the__employment__service {
+    width: 365px;
+  }
+
+  .lower__block__citizens__under__age__35__not__employed__after__4__months__from__the__date__of__issue,
+.lower__block__info__about__citizens__under__35__graduating__from__an__educational__institution__this__year,
+.lower__block__info__about__employees__at__risk__of__dismissal,
+.lower__block__info__about__unemployed__citizens__registered__with__the__employment__service {
+    width: 340px;
+  }
+
+  .lower__block__citizens__of__pre__retirement__age,
+.lower__block__persons__age__50__years__and__older,
+.lower__block__women__who__have__children__from__0__to__7__years__old__inclusive__and__are__not__in__an__employment__relationship {
+    width: 340px;
+  }
+
+  .lower__block__women__on__parental__leave__under__the__age__of__three {
+    min-width: 340px;
+  }
+
+  .lower__block__citizens__under__the__age__of__35__who__are__not__employed__after__4__months,
+.lower__block__citizens__under__the__age__of__35__who__do__not__have__secondary__vocational__and__higher__education {
+    width: 340px;
+  }
+
+  .info__about__citizens__under__35__graduating__from__an__educational__institution__this__year {
+    min-width: 365px;
+    min-height: 365px;
+  }
+
+  .logo__block img {
+    width: 85%;
+  }
+
+  .info__about__persons__age__50__years__and__older {
+    width: 365px;
+  }
+}
